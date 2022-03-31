@@ -9,7 +9,7 @@ var app = new function (){
         if (this.offres.length > 0){
             for(i=0; i < this.offres.length; i++){
                 data+='<tr>';
-                data+='<td>'+(i+1)+'. '+this.offres[i].substring(0,10)+ '(...)</td>';
+                data+='<td>'+(i+1)+'. '+this.offres[i].substring(0,20)+ '(...)</td>';
                 data+='<td><button onclick="app.Edit('+i+')"class="btn btn-warning">Edit</button></td> ';
                 data+='<td><button onclick="app.Delete('+i+')"class="btn btn-danger">Delete</button></td> ';
                 data+='<td class="skills">'+this.Search(i)+'</td>';
