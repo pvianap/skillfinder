@@ -1,0 +1,40 @@
+table{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 25px;
+    background-color: rgb(65, 160, 238);
+    margin-top: 0;
+    padding: 20px;
+    color: azure;
+}
+
+.input-text{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+
+#edit-box{
+    display: none;
+    max-width:80%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.skills{
+    color:red;
+}
+
+#counter{
+    display: inline;
+    margin-left: 40px;
+}
+
+.text{
+    margin-left: 40px;
+}
